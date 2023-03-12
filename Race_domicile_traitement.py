@@ -38,10 +38,3 @@ tableau_croise = tableau_croise.sort_values(by="Total pondéré", ascending=Fals
 # Afficher le résultat de la colonne "Total pondéré" pour les 10 zones ZIP les plus occupées par ces chiens
 resultats = tableau_croise["Total pondéré"].head(10)
 print(resultats)
-
-# Assigner les valeurs Zip code et score correspondant à des variables
-zipcodes = resultats.index.tolist()
-scores = resultats.values.tolist()
-
-# Utiliser ces variables dans un autre code
-autre_variable = zipcodes[0] + scores[0]
