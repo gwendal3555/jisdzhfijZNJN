@@ -29,7 +29,7 @@ for feature in data["features"]:
 
 # Liste des 10 codes ZIP et scores correspondants
 zip_codes = ["10025","10009","10023","11201","10011","11215","10024","10128","10029","10003"]
-scores = [8, 6, 9, 7, 5, 6, 8, 9, 7, 6]
+scores = [367.58, 305.32, 303.13, 301.14, 300.5, 274.1, 272.35, 264.95, 218.16, 214.2]
 
 # Ajouter un marqueur et un cercle pour chaque code ZIP avec un score personnalisé
 for i, code in enumerate(zip_codes):
