@@ -12,8 +12,8 @@ center = [40.70879507039175,-74.00098833771662]
 map = folium.Map(location=center, zoom_start=13)
 
 # Définir le rayon maximal et le score maximal
-max_radius =  500
-max_score = 10
+max_radius =  250
+max_score = 367.58
 
 # Créer un objet géocodeur Nominatim
 geolocator = Nominatim(user_agent="my-app")
@@ -46,7 +46,7 @@ for i, code in enumerate(zip_codes):
                       radius=radius, 
                       color='orange', 
                       fill=True, 
-                      fill_opacity=0.8).add_to(map)
+                      fill_opacity=0.5).add_to(map)
 
 # Afficher la carte
 map.save(r"C:\Users\33782\Desktop\M2 MSI\S2\Certification\carte_OSM\map.html")
